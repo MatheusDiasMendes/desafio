@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="estilo.css" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
-</head>
-<body>
-   <section>
-    <div>
-        <br>
-    <h1>Bem Vindo</h1>
-
-    <form method="POST" action="usuario.php">
-        <label><b>Nome</b> </label>
-        <input type="nome" name="nome" id="nome" placeholder="Ex: Matheus" required><br><br>
-        <label"><b>data</b> </label>
-        <input type="date" name="data" id="data" placeholder ="Ex: 21/02/2022" required><br><br>
-        <button type="submit" name="confirmar" id="show">Confirmar</button>
-    </div>
-   </section>  
-
-   <script src="script.js"></script>
-</body>
-</html>
 
 
 
